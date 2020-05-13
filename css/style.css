@@ -12,3 +12,30 @@ html {
   background-size: cover;
 }
 
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+/* Modified bootstrap class */
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+/* Modified bootstrap class */
+.btn-primary {
+  background-color: #f05f44;
+  border: 1px solid #ff0055;
+  transition: all 0.25s;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b09;
+  border: 4px solid #ee4b09;
+}
